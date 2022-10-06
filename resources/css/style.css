@@ -4,7 +4,7 @@ html {
 
 body {
     max-width: 900px;
-    color: black;
+    color: #323232;
     background-color: white;
     font-family: 'Open Sans', sans-serif;
     margin: 0 auto;
@@ -14,6 +14,7 @@ body {
 nav {
     display: flex;
     align-items: center;
+    padding: 1rem 0;
 }
 
 .navigation-items {
@@ -24,7 +25,7 @@ nav {
 }
 
 a {
-    color: black;
+    color: #323232;
     text-decoration: none;
     font-weight: 600;
     padding: 0.8rem;
@@ -35,4 +36,25 @@ h2 {
     font-family: 'Proza Libre', sans-serif;
     font-size: 1.5rem;
     font-weight: bold;
+}
+
+section {
+    display: block;
+}
+
+.about-me-container {
+    display: flex;
+}
+
+.about-me-text-container {
+    margin-right: 1rem;
+}
+
+p {
+    display: block;
+}
+
+.about-me-container img {
+    width: 300px;
+    border-radius: 0.7rem;
 }
