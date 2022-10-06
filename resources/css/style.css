@@ -1,0 +1,38 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    max-width: 900px;
+    color: black;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-items {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin-left: auto;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.8rem;
+}
+
+h2 {
+    display: block;
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
