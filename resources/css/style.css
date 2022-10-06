@@ -41,6 +41,7 @@ h2 {
 
 section {
     display: block;
+    padding: 1rem 0;
 }
 
 .about-me-container {
@@ -86,5 +87,11 @@ details {
 #skills-container > *{
     font-size: 2.5rem;
     width: 4rem;
+}
+
+footer {
+    font-family: 'Proza Libre', sans-serif;
+    text-align: center;
+    padding: 0.75rem 0;
 }
 
