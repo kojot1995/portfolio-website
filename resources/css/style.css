@@ -70,3 +70,20 @@ summary {
 .project-image {
     width: 50%;
 }
+
+details {
+    cursor: pointer;
+}
+
+#skills-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#skills-container > *{
+    font-size: 2.5rem;
+    width: 4rem;
+}
+
