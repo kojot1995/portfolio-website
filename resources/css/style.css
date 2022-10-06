@@ -58,3 +58,15 @@ p {
     width: 300px;
     border-radius: 0.7rem;
 }
+
+.project-title h3 {
+    display: inline;
+}
+
+summary {
+    list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
+}
+
+.project-image {
+    width: 50%;
+}
