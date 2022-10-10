@@ -69,10 +69,6 @@ p {
     display: inline;
 }
 
-summary {
-    list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
-}
-
 .project-image {
     width: 50%;
 }
